@@ -1,0 +1,61 @@
+/* --- Layout for the Grid --- */
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;/* Allows cards to wrap to the next row */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the cards on the page */
+    padding: 20px;
+}
+/* --- Common Card Styling --- */
+.card{
+    /* Basic dimensions and spacing */
+    width: 200px; /* Width of each card */
+    min-height: 250px;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba (0,0,0,0.1); /* Subtle shadow like in the image */
+    text-align: center;
+    color: #333; /* Dark gray text color */
+}
+/* --- Typography Styling --- */
+.card h1{
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 1px; /* To match the bold, wide look */
+}
+.card .description{
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+/* Icon Resize */
+.card img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+/* --- Individual Card Styling (Colors & Specific Fonts) --- */
+.card-1{
+    background-color:rgb(178, 227, 234);
+    font-family: 'Montserrat', sans-serif;
+}
+.card-2{
+    background-color:rgb(255, 204, 176);
+    font-family: 'Roboto', italic, sans-serif,;
+}
+.card-3{
+    background-color:rgb(212, 232, 203);
+    font-family: 'Open Sans', sans-serif;
+}
+.card-4{
+    background-color:rgb(212, 206, 234);
+    font-family: "Playfair", serif;
+}
+.card-5{
+    background-color:rgb(219, 218, 219);
+    font-family: Arial, Helvetica, sans-serif
+}
+.card-6{
+    background-color:rgb(255, 233, 178);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
